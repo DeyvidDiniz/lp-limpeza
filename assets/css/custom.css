@@ -1,0 +1,7 @@
+.main-slider .image-layer:before{
+    display:none;
+}
+
+.main-slider-bubble{
+    height:150px;
+}

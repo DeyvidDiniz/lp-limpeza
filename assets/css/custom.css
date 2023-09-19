@@ -5,3 +5,17 @@
 .main-slider-bubble{
     height:150px;
 }
+
+.main-header__logo a>img{
+    width:89px;
+}
+
+
+.welcome-one__points li .text p{
+    font-size:16px;
+}
+
+.services-one__text{
+    line-height:24px;
+    font-size:15px;
+}

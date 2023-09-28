@@ -24,3 +24,21 @@
     font-size:16px;
 
 }
+
+.services-one{
+    padding:80px 0;
+}
+
+.feature-two {
+    padding: 120px 0 80px 0;
+}
+
+
+.owl-carousel:hover{
+    user-select: none!important;
+}
+
+.feature-two__icon img{
+    widht:60px;
+    height:60px;
+}

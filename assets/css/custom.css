@@ -55,3 +55,7 @@
 .services-two__single:hover .services-two__img img{
     transform:none!important;
 }
+
+.services-carousel-page{
+    padding:100px 0 50px 0;
+}

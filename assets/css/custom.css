@@ -42,3 +42,16 @@
     widht:60px;
     height:60px;
 }
+
+/*Remover efeito Hover*/
+
+.services-two__img::before {
+    background-color: rgba(var(--brote-base-rgb), 0.0);
+}
+
+.services-two__single:hover .services-two__img:before{
+    transform:none!important;
+}
+.services-two__single:hover .services-two__img img{
+    transform:none!important;
+}

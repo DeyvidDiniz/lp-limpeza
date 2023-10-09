@@ -26,11 +26,11 @@
 }
 
 .services-one{
-    padding:80px 0;
+    padding:40px 0;
 }
 
 .feature-two {
-    padding: 120px 0 80px 0;
+    padding: 120px 0 30px 0;
 }
 
 
@@ -60,3 +60,36 @@
     padding:100px 0 50px 0;
 }
 
+.counter-one__plus{
+    font-size:45px;
+    margin-left:10px;
+}
+
+.destaque-font{
+    font-weight: 900;
+    font-size: 64px;
+    background: VAR(--brote-primary);
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 10px;
+    color: white;
+    white-space: nowrap;
+}
+
+.section-title__title{
+    line-height:75px;
+}
+
+@media(max-width:786px){
+    .destaque-font{
+        font-size:35px;
+        line-height:55px;
+    }
+    .section-title__title{
+        font-size:35px;
+        line-height:55px;
+    }
+    .img-banner{
+        width:100%;
+    }
+}

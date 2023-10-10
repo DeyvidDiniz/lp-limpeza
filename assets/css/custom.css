@@ -80,6 +80,29 @@
     line-height:75px;
 }
 
+.sec-vant-interna{
+    padding:10px;
+}
+.sec-vantagens{
+    padding:0;
+}
+
+
+.sec-vant-interna .feature-one__title{
+    font-size:20px;
+    line-height:30px;
+}
+.feature-one__icon img {
+    width:64px;
+}
+
+.information{
+    padding-top:75px;
+}
+.site-footer-shape-two{
+    display:flex;
+}
+
 @media(max-width:786px){
     .destaque-font{
         font-size:35px;

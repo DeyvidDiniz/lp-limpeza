@@ -117,19 +117,19 @@
     //font-family: 'Bevan', serif;
     display:none;
     font-family: 'Lilita One', sans-serif;
-    letter-spacing:3px;
+    letter-spacing:2px;
     justify-content: center;
     align-items: center;
     text-align:center;
-    padding: 60px 20px 40px 20px;
+    padding: 60px 10px 40px 10px;
 }
 .titulo-mobile-h1 h1 {
-    font-size:40px!important;
+    font-size:30px!important;
 }
 
 .titulo-mobile-h1 .title-destaque{
     color:#D90202;
-    font-size:50px;
+    font-size:35px;
 }
 
 .btn-comprar-mob{

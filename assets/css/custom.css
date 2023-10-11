@@ -113,6 +113,35 @@
 
 
 
+.titulo-mobile-h1{
+    //font-family: 'Bevan', serif;
+    display:none;
+    font-family: 'Lilita One', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding: 60px 20px 40px 20px;
+}
+.titulo-mobile-h1 h1 {
+    font-size:40px!important;
+}
+
+.titulo-mobile-h1 .title-destaque{
+    color:#D90202;
+    font-size:50px;
+}
+
+.btn-comprar-mob{
+    margin:40px;
+    display:flex;
+    justify-content:center;
+    display:none;
+}
+
+
+
+/*Mobile*/
+
 @media(max-width:786px){
     .destaque-font{
         font-size:35px;
@@ -146,13 +175,29 @@
        }
        .main-slider .container{
         padding-bottom:150px;
-        padding:100px 0;
+        padding:0px 0;
         padding-bottom:0;
        }
 
        .swiper-slide .col-xl-12{
             padding:0;
         }
+        .testimonial-one{
+            padding:50px 0 155px;
+        }
 
-       
+        .main-slider-bubble{
+            display:none;
+        }
+
+        .btn-comprar-mob{
+            display:flex;
+        }
+       .titulo-mobile-h1{
+            display:block;
+       }
+
+       .feature-one{
+        padding: 50px 0 145px;
+       }
 }
